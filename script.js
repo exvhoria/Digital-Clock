@@ -7,8 +7,6 @@ function updateTime() {
   document.getElementById('time').textContent = timeString;
 }
 
-// Update time every second
 setInterval(updateTime, 1000);
 
-// Initial call to display time immediately
 updateTime();
